@@ -8,7 +8,7 @@ As a part of the competition, 4 files were provided: a sample submission CSV, te
 
 ### Competition Results
 
-In total, 14 submissions were made *(all loacted in the "Submissions" folder)*. A short description of each submission would be as follows:
+In total, 14 submissions were made *(all loacted in the "Submissions" folder)*. Detailed descriptions of all submissions can be found as a part of [HampshireSubmissionSummaryAndCode.pdf](/HampshireSubmissionSummaryAndCode.pdf). A short description of each submission would be as follows:
 
 1. **GLM**: Only 7 fields are initially used to predict stress built with GLM training.
     - *Private Score*: 3.40561 
@@ -89,7 +89,6 @@ The top 10 private RSME scores were the following:
     - *RSME*: 2.78938
 
 *Complete private leaderboard can be found [here](https://www.kaggle.com/c/stress-prediction/leaderboard)*
-
 
 ***NOTE***: *Kaggle requires Teams to select only 2 models to be submitted to the private leaderboard. While Submission 5 had a lower RMSE than stated here, that submision was not chosen as one to be submitted to the private leaderboard; the best what was selected was Submission 14. With this being said, even if the score for Submission 5 were to be used, the leaderboard position would not shift, as the next lowest score was still below that of Submission 5*    
     
