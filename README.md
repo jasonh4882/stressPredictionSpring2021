@@ -1,4 +1,4 @@
-# Stress Prediction Using Machine LEarning Models
+# Stress Prediction Using Machine Learning Models
 
 ## Description
 
