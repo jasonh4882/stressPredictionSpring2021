@@ -4,11 +4,11 @@
 
 This project's goal was to use data collected from a survey during COVID-19 to predict the stress level *(from 0 to 16 with 16 being the highest stress)* of an individual. This was done as a part of a Kaggle competition that can be found [here](https://www.kaggle.com/c/stress-prediction/overview/description).
 
-As a part of the competition, 4 files were provided: a sample submission CSV, test data CSV, train data CSV, and an excel sheet containing sata descriptions. Using the training data *(which had the correct stress levels provided)* a model/models were made, using the answers from the survey as inputs and the stress level as the output. 
+As a part of the competition, 4 files were provided: a sample submission CSV, test data CSV, train data CSV, and an excel sheet containing data descriptions. Using the training data *(which had the correct stress levels provided)* a model/models were made, using the answers from the survey as inputs and the stress level as the output. 
 
 ### Competition Results
 
-In total, 14 submissions were made *(all loacted in the "Submissions" folder)*. Detailed descriptions of all submissions can be found as a part of [HampshireSubmissionSummaryAndCode.pdf](/HampshireSubmissionSummaryAndCode.pdf). A short description of each submission would be as follows:
+In total, 14 submissions were made *(all located in the "Submissions" folder)*. Detailed descriptions of all submissions can be found as a part of [HampshireSubmissionSummaryAndCode.pdf](/HampshireSubmissionSummaryAndCode.pdf). A short description of each submission would be as follows:
 
 1. **GLM**: Only 7 fields are initially used to predict stress built with GLM training.
     - *Private Score*: 3.40561 
@@ -53,12 +53,12 @@ In total, 14 submissions were made *(all loacted in the "Submissions" folder)*. 
     - *Private Score*: 2.78753
     - *Public Score* : 2.74891
     
-Submission 5(Mean RF) did the best on the private leaderboard while submission 13(RF/GLM) did the best on the public leaderboard. For clarification, Kaggle has two leaderboards. The public one can be seen at any time while the private one can only be seen after the competition is over. The private leaderboard also only allows two submissitions to be counted. The leaderboards are each based on only part of the whole dataset. This allows for feedback on the approximate preformance of a model without revealing the data that will actually be tested against. This discourages manual edits of a submission and other inproper submission methods.
+Submission 5(Mean RF) did the best on the private leaderboard while submission 13(RF/GLM) did the best on the public leaderboard. For clarification, Kaggle has two leaderboards. The public one can be seen at any time while the private one can only be seen after the competition is over. The private leaderboard also only allows two submissions to be counted. The leaderboards are each based on only part of the whole dataset. This allows for feedback on the approximate performance of a model without revealing the data that will actually be tested against. This discourages manual edits of a submission and other improper submission methods.
     
-#### Comparitive Performance ####
+#### Comparative Performance ####
 
 Compared to the other submissions made by all teams, the best model submitted by Jason Hampshire:
-- **Public Leaderboard**: RMSE of **2.74304** did **3rd** best on the public board and the best of all undergraduate student submissions, only being beaten by Ph.D. students [Jun Zhuang](https://www.kaggle.com/eplebani) and [Emanuele Plebani](https://www.kaggle.com/junzhuang) *(team name 'PatchMatch')* with scores of **2.74244** and **2.73678** respectivley. This placed the submission on the **94th percentile**
+- **Public Leaderboard**: RMSE of **2.74304** did **3rd** best on the public board and the best of all undergraduate student submissions, only being beaten by Ph.D. students [Jun Zhuang](https://www.kaggle.com/eplebani) and [Emanuele Plebani](https://www.kaggle.com/junzhuang) *(team name 'PatchMatch')* with scores of **2.74244** and **2.73678** respectively. This placed the submission on the **94th percentile**
 
 *Complete public leaderboard CSV can be found [here](stress-prediction-publicleaderboard.csv)*
 
@@ -90,7 +90,7 @@ The top 10 private RSME scores were the following:
 
 *Complete private leaderboard can be found [here](https://www.kaggle.com/c/stress-prediction/leaderboard)*
 
-***NOTE***: *Kaggle requires Teams to select only 2 models to be submitted to the private leaderboard. While Submission 5 had a lower RMSE than stated here, that submision was not chosen as one to be submitted to the private leaderboard; the best what was selected was Submission 14. With this being said, even if the score for Submission 5 were to be used, the leaderboard position would not shift, as the next lowest score was still below that of Submission 5*    
+***NOTE***: *Kaggle requires Teams to select only 2 models to be submitted to the private leaderboard. While Submission 5 had a lower RMSE than stated here, that submission was not chosen as one to be submitted to the private leaderboard; the best what was selected was Submission 14. With this being said, even if the score for Submission 5 were to be used, the leaderboard position would not shift, as the next lowest score was still below that of Submission 5*    
     
 ## Software
 
